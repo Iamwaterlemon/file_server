@@ -1,0 +1,16 @@
+{application, file_server,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, [file_server_sup]},
+  {mod, { file_server_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
